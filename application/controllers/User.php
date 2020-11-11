@@ -117,6 +117,7 @@ class User extends CI_Controller
         $config['center'] = '-3.4405486,114.7843735';
         $config['zoom'] = '12';
         $config['map_height'] = '400px;';
+        $config['map_type'] = 'HYBRID';
         $this->googlemaps->initialize($config);
 
         $marker = array();
@@ -147,6 +148,7 @@ class User extends CI_Controller
 
         $config['center'] = '-3.4405486,114.7843735';
         $config['zoom'] = '12';
+        $config['map_type'] = 'HYBRID';
         $config['styles'] = array(
             array(
                 "name" => "No Businesses",

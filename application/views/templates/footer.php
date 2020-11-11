@@ -28,8 +28,8 @@
     }
 
     function setMapToForm(latitude, longitude) {
-        $('input[name="latitude"]').val(latitude);
-        $('input[name="longitude"]').val(longitude);
+        $('input[name="latitude"]').val(latitude.toFixed(5));
+        $('input[name="longitude"]').val(longitude.toFixed(5));
     }
 </script>
 

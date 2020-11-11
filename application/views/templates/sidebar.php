@@ -147,6 +147,9 @@
                             <form class="form-header" action="" method="POST">
                             </form>
                             <div class="header-button">
+                                <div class="noti-wrap">
+
+                                </div>
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">

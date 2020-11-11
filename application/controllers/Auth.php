@@ -49,6 +49,7 @@ class Auth extends CI_Controller
 
         $config['center'] = '-3.4405486,114.7843735';
         $config['zoom'] = '12';
+        $config['map_type'] = 'HYBRID';
         $config['styles'] = array(
             array(
                 "name" => "No Businesses",
@@ -81,7 +82,8 @@ class Auth extends CI_Controller
             $marker['infowindow_content'] .= '<p><b>Username WiFi :</b> ' . $value->username . '</p>';
             $marker['infowindow_content'] .= '<p><b>Password WiFi :</b> ' . $value->password . '</p>';
             $marker['infowindow_content'] .= '<p><b>Alamat WiFi :</b> ' . $value->address . '</p><br>';
-            $marker['infowindow_content'] .= '<p><img src="' . $base_url . 'assets/img/tempat/' . $value->foto . '" style="width:300px;height:200px;"></p>';
+            $marker['infowindow_content'] .= '<p><img src="' . $base_url . 'assets/img/tempat/' . $value->foto . '" style="width:300px;height:200px;"></p><br>';
+            $marker['infowindow_content'] .= '<center><a href="https://localhost/geowifi/hotspot/login.html" target="_blank"><button class="btn btn-danger">Connect WiFi</button></a></center>';
             $marker['infowindow_content'] .= '</div>';
             $marker['infowindow_content'] .= '</div>';
             $marker['icon'] = base_url("public/icon/wifi.png");
