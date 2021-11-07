@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 08, 2020 at 05:04 PM
--- Server version: 10.4.13-MariaDB
--- PHP Version: 7.4.8
+-- Generation Time: Nov 07, 2021 at 02:46 PM
+-- Server version: 10.4.18-MariaDB
+-- PHP Version: 7.4.16
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -70,7 +70,7 @@ CREATE TABLE `tb_user` (
 --
 
 INSERT INTO `tb_user` (`id`, `name`, `username`, `password`, `jabatan`, `image`, `role_id`) VALUES
-(1, 'Hafiizh Zoelva Khairani', 'zoelva', '$2y$10$.EysfTn8nrVbqIE4f6HUwuxNB6YeCRePau9Fiq1vvIMj2.BuzHcvW', 'Admin', 'Logo_IEA_Kalsel.png', 1),
+(1, 'Hafiizh Zoelva Khairani', 'zoelva', '$2y$10$NovtemhaP16MD6EZS5Y4AuXCK8gADZZEkxDhTO4yHRs9lH7RM.Yim', 'Admin', 'default1.jpg', 1),
 (2, 'Zoelva Khairani', 'khairani', '$2y$10$r622gMNr6bkCSCaT5Empfu7t1uw3h6JkZ8cohuXQr2L0KOvu3hB7q', 'User', 'default.jpg', 2);
 
 -- --------------------------------------------------------
