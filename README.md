@@ -3,10 +3,10 @@ Aplikasi GIS Based Free Internet Access Point ini merupakan projek tugas kuliah 
 
 ## Tampilan Web
 ![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_1.jpg)
-![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_2.jpg.jpg)
-![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_3.jpg.jpg)
-![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_4.jpg.jpg)
-![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_5.jpg.jpg)
+![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_2.jpg)
+![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_3.jpg)
+![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_4.jpg)
+![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_5.jpg)
 
 ## Web ini dibuat menggunakan
 - Framework Codeigniter 3
