@@ -14,6 +14,9 @@ class Admin extends CI_Controller
         $data['title'] = 'Dashboard';
         $data['user'] = $this->db->get_where('tb_user', ['username' => $this->session->userdata('username')])->row_array();
 
+        $data['pengguna'] = $this->db->count_all('tb_user');
+        $data['lokasi'] = $this->db->count_all('tb_location');
+
         $this->load->view('templates/header', $data);
         $this->load->view('templates/sidebar', $data);
         $this->load->view('admin/index', $data);
