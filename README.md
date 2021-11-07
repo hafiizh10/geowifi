@@ -2,11 +2,11 @@
 Aplikasi GIS Based Free Internet Access Point ini merupakan projek tugas kuliah saya, aplikasi ini berfungsi untuk pemetaan lokasi akses internet berdasarkan geografisnya dan mempermudah masyarakat untuk mencari jaringan wifi gratis pada suatu daerah atau kota.
 
 ## Tampilan Web
-![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/imagesScreenshot_1.jpg.jpg)
-![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/imagesScreenshot_2.jpg.jpg)
-![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/imagesScreenshot_3.jpg.jpg)
-![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/imagesScreenshot_4.jpg.jpg)
-![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/imagesScreenshot_5.jpg.jpg)
+![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_1.jpg)
+![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_2.jpg.jpg)
+![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_3.jpg.jpg)
+![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_4.jpg.jpg)
+![alt tag](https://github.com/hafiizh10/geowifi/blob/master/assets/images/Screenshot_5.jpg.jpg)
 
 ## Web ini dibuat menggunakan
 - Framework Codeigniter 3
@@ -16,6 +16,6 @@ Aplikasi GIS Based Free Internet Access Point ini merupakan projek tugas kuliah 
 
 ## Catatan
 Jika terjadi error jangan lupa cek file .htaccess nya ada modifikasi sedikit
-- Admin
-Username : zoelva
+- Admin<br>
+Username : zoelva<br>
 Password : 12345
